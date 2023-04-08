@@ -22,7 +22,8 @@
   "scripts": {
     "build": "father build",
     "test": "vitest",
-    "test:cov": "vitest run --coverage"
+    "test:cov": "vitest run --coverage",
+    "bp": "np-grooming"
   },
   "keywords": [],
   "author": "ityuany",
@@ -33,7 +34,7 @@
     "resolve-from": "^5.0.0"
   },
   "devDependencies": {
-    "@shined/np-grooming": "0.0.0-snapshot.7edba5a",
+    "@shined/np-grooming": "^1.0.0",
     "@vitest/coverage-c8": "^0.29.7",
     "father": "^4.1.7",
     "vitest": "^0.29.7"

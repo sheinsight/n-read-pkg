@@ -13,8 +13,8 @@ dependencies:
 
 devDependencies:
   '@shined/np-grooming':
-    specifier: 0.0.0-snapshot.7edba5a
-    version: 0.0.0-snapshot.7edba5a
+    specifier: ^1.0.0
+    version: 1.0.0
   '@vitest/coverage-c8':
     specifier: ^0.29.7
     version: 0.29.7(vitest@0.29.7)
@@ -982,8 +982,9 @@ packages:
       string-argv: 0.3.1
     dev: true
 
-  /@shined/np-grooming@0.0.0-snapshot.7edba5a:
-    resolution: {integrity: sha512-RE31KCmC2Cb98HY08R5DVe4B4HsUtXdVmZXKLZSK5DkaPY8SMk3PMRk53IEoSVOOn3HWmOcBOPZYbeTB0B/5qQ==}
+  /@shined/np-grooming@1.0.0:
+    resolution: {integrity: sha512-aSYmIewhaU8gGMTh54p8AynqfgnXFLlZ0UNRJWmb2aM32AXh5lo9JgmeQ6WP5JmNY1Ng+bfGxIuTbvRfd7H4JA==}
+    engines: {node: '>=16.13.0'}
     hasBin: true
     dependencies:
       cac: 6.7.14
@@ -5661,7 +5662,7 @@ packages:
     dev: true
 
 time:
-  /@shined/np-grooming@0.0.0-snapshot.7edba5a: '2023-03-31T16:21:27.814Z'
+  /@shined/np-grooming@1.0.0: '2023-04-08T19:03:42.325Z'
   /@vitest/coverage-c8@0.29.7: '2023-03-20T20:38:31.275Z'
   /father@4.1.7: '2023-03-16T09:16:37.998Z'
   /is-builtin-module@3.2.1: '2023-01-31T05:53:21.281Z'
