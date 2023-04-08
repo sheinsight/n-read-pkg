@@ -53,7 +53,14 @@ describe("fixTerser", () => {
 
   it("should return the correct readResult if packageJson.private is true", () => {
     const moduleId = "terser";
-    const wrongPackagePath = `${demo1Cwd}/node_modules/${moduleId}/dist/package.json`;
+
+    const wrongPackagePath = path.join(
+      demo1Cwd,
+      "node_modules",
+      moduleId,
+      "dist",
+      "package.json"
+    );
     const inputReadResult = <NormalizedReadResult>{
       path: wrongPackagePath,
       packageJson: {
@@ -65,7 +72,12 @@ describe("fixTerser", () => {
 
     const fixedResult = fixTerser(inputReadResult);
 
-    const correctPackagePath = `${demo1Cwd}/node_modules/${moduleId}/package.json`;
+    const correctPackagePath = path.join(
+      demo1Cwd,
+      "node_modules",
+      moduleId,
+      "package.json"
+    );
 
     expect(fixedResult!.path).toBe(correctPackagePath);
     expect(fixedResult!.packageJson.private).toBeUndefined();
