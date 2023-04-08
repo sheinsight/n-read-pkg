@@ -1,6 +1,6 @@
 {
   "name": "@shined/n-read-pkg",
-  "version": "0.0.1-beta.1",
+  "version": "1.0.0",
   "description": "This is a universal standard template.",
   "homepage": "https://github.com/sheinsight/tpl-base",
   "packageManager": "pnpm@8.0.0",
@@ -45,5 +45,5 @@
     "url": "https://github.com/sheinsight/tpl-base/issues"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "@shined/n-read-pkg@0.0.1-beta.0"
+  "_id": "@shined/n-read-pkg@0.0.1-beta.1"
 }
