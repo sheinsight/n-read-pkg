@@ -16,7 +16,7 @@ describe("findModuleDir", () => {
     }).toThrowErrorMatchingInlineSnapshot(`
       "Cannot find module '${moduleId}/package.json'
       Require stack:
-      - /Users/ityuany/shined/n-read-pkg/noop.js"
+      - ${process.cwd()}/noop.js"
     `);
   });
 
