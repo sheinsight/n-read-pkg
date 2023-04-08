@@ -1,13 +1,13 @@
 {
   "name": "@shined/n-read-pkg",
-  "version": "0.0.0",
+  "version": "0.0.1-beta.0",
   "description": "This is a universal standard template.",
   "homepage": "https://github.com/sheinsight/tpl-base",
   "packageManager": "pnpm@8.0.0",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git@github.com:sheinsight/tpl-base.git"
+    "url": "git+ssh://git@github.com/sheinsight/tpl-base.git"
   },
   "files": [
     "dist"
@@ -26,7 +26,9 @@
     "bp": "np-grooming"
   },
   "keywords": [],
-  "author": "ityuany",
+  "author": {
+    "name": "ityuany"
+  },
   "license": "MIT",
   "dependencies": {
     "is-builtin-module": "^3.2.1",
@@ -38,5 +40,10 @@
     "@vitest/coverage-c8": "^0.29.7",
     "father": "^4.1.7",
     "vitest": "^0.29.7"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/sheinsight/tpl-base/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "@shined/n-read-pkg@0.0.0"
 }
