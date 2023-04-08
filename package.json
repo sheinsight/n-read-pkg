@@ -5,12 +5,20 @@
   "homepage": "https://github.com/sheinsight/tpl-base",
   "packageManager": "pnpm@8.0.0",
   "type": "module",
+  "exports": {
+    ".": {
+      "import": "./es/index.js",
+      "default": "./es/index.js"
+    },
+    "./package.json": "./package.json"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/sheinsight/tpl-base.git"
   },
   "files": [
-    "dist"
+    "dist",
+    "es"
   ],
   "publishConfig": {
     "access": "public",
