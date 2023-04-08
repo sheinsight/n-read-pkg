@@ -1,9 +1,10 @@
 {
-  "name": "@shined/tmp-base",
-  "version": "0.0.1",
+  "name": "@shined/n-read-pkg",
+  "version": "1.0.0",
   "description": "This is a universal standard template.",
   "homepage": "https://github.com/sheinsight/tpl-base",
   "packageManager": "pnpm@8.0.0",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:sheinsight/tpl-base.git"
@@ -16,8 +17,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "engines": {
-    "node": ">=16.13.0",
-    "pnpm": ">=8.0.0"
+    "node": ">=16.13.0"
   },
   "scripts": {
     "build": "father build",
@@ -27,8 +27,13 @@
   "keywords": [],
   "author": "ityuany",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "is-builtin-module": "^3.2.1",
+    "read-pkg-up": "^9.1.0",
+    "resolve-from": "^5.0.0"
+  },
   "devDependencies": {
+    "@shined/np-grooming": "0.0.0-snapshot.7edba5a",
     "@vitest/coverage-c8": "^0.29.7",
     "father": "^4.1.7",
     "vitest": "^0.29.7"
